@@ -1,8 +1,3 @@
-#node {
-#		echo "Build"
-#		echo "Test"
-#		echo "Integration Test"
-#}
 
 pipeline{
 	agent any
