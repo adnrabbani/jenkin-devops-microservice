@@ -17,5 +17,15 @@ pipeline{
 				echo "Int Test"
 			}
 		}
+	}post{
+		always{
+			echo "always run"
+		}
+		success{
+			echo "pass"
+		}
+		failure{
+			echo "fail"
+		}
 	}
 }
